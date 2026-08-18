@@ -1,0 +1,753 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "node_type": "Role",
+      "id": "Cloud Solution Architect"
+    },
+    {
+      "node_type": "Region",
+      "id": "Asia-Pacific"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Cloud (AWS/GCP/Azure)"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Git/CI-CD"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Go"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Python"
+    },
+    {
+      "node_type": "Role",
+      "id": "Data Engineer"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Docker/Kubernetes"
+    },
+    {
+      "node_type": "Skill",
+      "id": "ETL Pipelines"
+    },
+    {
+      "node_type": "Skill",
+      "id": "NoSQL"
+    },
+    {
+      "node_type": "Skill",
+      "id": "PySpark/Spark"
+    },
+    {
+      "node_type": "Skill",
+      "id": "SQL"
+    },
+    {
+      "node_type": "Role",
+      "id": "Data Scientist"
+    },
+    {
+      "node_type": "Region",
+      "id": "North America"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Data Modeling"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Machine Learning"
+    },
+    {
+      "node_type": "Region",
+      "id": "Europe"
+    },
+    {
+      "node_type": "Role",
+      "id": "Machine Learning Engineer"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Deep Learning"
+    },
+    {
+      "node_type": "Skill",
+      "id": "MLOps"
+    },
+    {
+      "node_type": "Skill",
+      "id": "PyTorch"
+    },
+    {
+      "node_type": "Role",
+      "id": "BI Developer"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Tableau/PowerBI"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Linux"
+    },
+    {
+      "node_type": "Skill",
+      "id": "R"
+    },
+    {
+      "node_type": "Role",
+      "id": "AI Research Scientist"
+    },
+    {
+      "node_type": "Skill",
+      "id": "LLMs/NLP"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Mathematics"
+    },
+    {
+      "node_type": "Skill",
+      "id": "TensorFlow"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Excel"
+    },
+    {
+      "node_type": "Skill",
+      "id": "Scikit-Learn"
+    }
+  ],
+  "edges": [
+    {
+      "weight": 4,
+      "source": "Cloud Solution Architect",
+      "target": "Asia-Pacific"
+    },
+    {
+      "weight": 30,
+      "source": "Cloud Solution Architect",
+      "target": "Cloud (AWS/GCP/Azure)"
+    },
+    {
+      "weight": 29,
+      "source": "Cloud Solution Architect",
+      "target": "Git/CI-CD"
+    },
+    {
+      "weight": 35,
+      "source": "Cloud Solution Architect",
+      "target": "Go"
+    },
+    {
+      "weight": 30,
+      "source": "Cloud Solution Architect",
+      "target": "Python"
+    },
+    {
+      "weight": 18,
+      "source": "Cloud Solution Architect",
+      "target": "Europe"
+    },
+    {
+      "weight": 30,
+      "source": "Cloud Solution Architect",
+      "target": "Docker/Kubernetes"
+    },
+    {
+      "weight": 31,
+      "source": "Cloud Solution Architect",
+      "target": "Linux"
+    },
+    {
+      "weight": 15,
+      "source": "Cloud Solution Architect",
+      "target": "North America"
+    },
+    {
+      "weight": 18,
+      "source": "Asia-Pacific",
+      "target": "Cloud (AWS/GCP/Azure)"
+    },
+    {
+      "weight": 7,
+      "source": "Asia-Pacific",
+      "target": "Git/CI-CD"
+    },
+    {
+      "weight": 4,
+      "source": "Asia-Pacific",
+      "target": "Go"
+    },
+    {
+      "weight": 40,
+      "source": "Asia-Pacific",
+      "target": "Python"
+    },
+    {
+      "weight": 12,
+      "source": "Asia-Pacific",
+      "target": "Data Engineer"
+    },
+    {
+      "weight": 16,
+      "source": "Asia-Pacific",
+      "target": "Docker/Kubernetes"
+    },
+    {
+      "weight": 18,
+      "source": "Asia-Pacific",
+      "target": "ETL Pipelines"
+    },
+    {
+      "weight": 12,
+      "source": "Asia-Pacific",
+      "target": "NoSQL"
+    },
+    {
+      "weight": 9,
+      "source": "Asia-Pacific",
+      "target": "PySpark/Spark"
+    },
+    {
+      "weight": 29,
+      "source": "Asia-Pacific",
+      "target": "SQL"
+    },
+    {
+      "weight": 11,
+      "source": "Asia-Pacific",
+      "target": "BI Developer"
+    },
+    {
+      "weight": 15,
+      "source": "Asia-Pacific",
+      "target": "Data Modeling"
+    },
+    {
+      "weight": 16,
+      "source": "Asia-Pacific",
+      "target": "Tableau/PowerBI"
+    },
+    {
+      "weight": 9,
+      "source": "Asia-Pacific",
+      "target": "AI Research Scientist"
+    },
+    {
+      "weight": 13,
+      "source": "Asia-Pacific",
+      "target": "Deep Learning"
+    },
+    {
+      "weight": 8,
+      "source": "Asia-Pacific",
+      "target": "LLMs/NLP"
+    },
+    {
+      "weight": 11,
+      "source": "Asia-Pacific",
+      "target": "PyTorch"
+    },
+    {
+      "weight": 9,
+      "source": "Asia-Pacific",
+      "target": "TensorFlow"
+    },
+    {
+      "weight": 5,
+      "source": "Asia-Pacific",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "weight": 5,
+      "source": "Asia-Pacific",
+      "target": "MLOps"
+    },
+    {
+      "weight": 15,
+      "source": "Asia-Pacific",
+      "target": "Machine Learning"
+    },
+    {
+      "weight": 10,
+      "source": "Asia-Pacific",
+      "target": "Excel"
+    },
+    {
+      "weight": 10,
+      "source": "Asia-Pacific",
+      "target": "Data Scientist"
+    },
+    {
+      "weight": 8,
+      "source": "Asia-Pacific",
+      "target": "R"
+    },
+    {
+      "weight": 9,
+      "source": "Asia-Pacific",
+      "target": "Scikit-Learn"
+    },
+    {
+      "weight": 6,
+      "source": "Asia-Pacific",
+      "target": "Mathematics"
+    },
+    {
+      "weight": 3,
+      "source": "Asia-Pacific",
+      "target": "Linux"
+    },
+    {
+      "weight": 36,
+      "source": "Cloud (AWS/GCP/Azure)",
+      "target": "Data Engineer"
+    },
+    {
+      "weight": 43,
+      "source": "Cloud (AWS/GCP/Azure)",
+      "target": "Europe"
+    },
+    {
+      "weight": 42,
+      "source": "Cloud (AWS/GCP/Azure)",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "weight": 47,
+      "source": "Cloud (AWS/GCP/Azure)",
+      "target": "North America"
+    },
+    {
+      "weight": 36,
+      "source": "Git/CI-CD",
+      "target": "Europe"
+    },
+    {
+      "weight": 32,
+      "source": "Git/CI-CD",
+      "target": "North America"
+    },
+    {
+      "weight": 46,
+      "source": "Git/CI-CD",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "weight": 16,
+      "source": "Go",
+      "target": "Europe"
+    },
+    {
+      "weight": 15,
+      "source": "Go",
+      "target": "North America"
+    },
+    {
+      "weight": 37,
+      "source": "Python",
+      "target": "Data Engineer"
+    },
+    {
+      "weight": 24,
+      "source": "Python",
+      "target": "Data Scientist"
+    },
+    {
+      "weight": 83,
+      "source": "Python",
+      "target": "North America"
+    },
+    {
+      "weight": 71,
+      "source": "Python",
+      "target": "Europe"
+    },
+    {
+      "weight": 43,
+      "source": "Python",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "weight": 27,
+      "source": "Python",
+      "target": "BI Developer"
+    },
+    {
+      "weight": 33,
+      "source": "Python",
+      "target": "AI Research Scientist"
+    },
+    {
+      "weight": 39,
+      "source": "Data Engineer",
+      "target": "Docker/Kubernetes"
+    },
+    {
+      "weight": 40,
+      "source": "Data Engineer",
+      "target": "ETL Pipelines"
+    },
+    {
+      "weight": 37,
+      "source": "Data Engineer",
+      "target": "NoSQL"
+    },
+    {
+      "weight": 42,
+      "source": "Data Engineer",
+      "target": "PySpark/Spark"
+    },
+    {
+      "weight": 35,
+      "source": "Data Engineer",
+      "target": "SQL"
+    },
+    {
+      "weight": 16,
+      "source": "Data Engineer",
+      "target": "Europe"
+    },
+    {
+      "weight": 19,
+      "source": "Data Engineer",
+      "target": "North America"
+    },
+    {
+      "weight": 47,
+      "source": "Docker/Kubernetes",
+      "target": "Europe"
+    },
+    {
+      "weight": 44,
+      "source": "Docker/Kubernetes",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "weight": 50,
+      "source": "Docker/Kubernetes",
+      "target": "North America"
+    },
+    {
+      "weight": 25,
+      "source": "ETL Pipelines",
+      "target": "Europe"
+    },
+    {
+      "weight": 32,
+      "source": "ETL Pipelines",
+      "target": "BI Developer"
+    },
+    {
+      "weight": 29,
+      "source": "ETL Pipelines",
+      "target": "North America"
+    },
+    {
+      "weight": 10,
+      "source": "NoSQL",
+      "target": "Europe"
+    },
+    {
+      "weight": 15,
+      "source": "NoSQL",
+      "target": "North America"
+    },
+    {
+      "weight": 15,
+      "source": "PySpark/Spark",
+      "target": "Europe"
+    },
+    {
+      "weight": 18,
+      "source": "PySpark/Spark",
+      "target": "North America"
+    },
+    {
+      "weight": 30,
+      "source": "SQL",
+      "target": "Data Scientist"
+    },
+    {
+      "weight": 45,
+      "source": "SQL",
+      "target": "North America"
+    },
+    {
+      "weight": 26,
+      "source": "SQL",
+      "target": "Europe"
+    },
+    {
+      "weight": 35,
+      "source": "SQL",
+      "target": "BI Developer"
+    },
+    {
+      "weight": 18,
+      "source": "Data Scientist",
+      "target": "North America"
+    },
+    {
+      "weight": 28,
+      "source": "Data Scientist",
+      "target": "Data Modeling"
+    },
+    {
+      "weight": 34,
+      "source": "Data Scientist",
+      "target": "Machine Learning"
+    },
+    {
+      "weight": 9,
+      "source": "Data Scientist",
+      "target": "Europe"
+    },
+    {
+      "weight": 27,
+      "source": "Data Scientist",
+      "target": "R"
+    },
+    {
+      "weight": 29,
+      "source": "Data Scientist",
+      "target": "Tableau/PowerBI"
+    },
+    {
+      "weight": 29,
+      "source": "Data Scientist",
+      "target": "Scikit-Learn"
+    },
+    {
+      "weight": 24,
+      "source": "North America",
+      "target": "Data Modeling"
+    },
+    {
+      "weight": 42,
+      "source": "North America",
+      "target": "Machine Learning"
+    },
+    {
+      "weight": 26,
+      "source": "North America",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "weight": 36,
+      "source": "North America",
+      "target": "Deep Learning"
+    },
+    {
+      "weight": 19,
+      "source": "North America",
+      "target": "MLOps"
+    },
+    {
+      "weight": 33,
+      "source": "North America",
+      "target": "PyTorch"
+    },
+    {
+      "weight": 13,
+      "source": "North America",
+      "target": "Linux"
+    },
+    {
+      "weight": 15,
+      "source": "North America",
+      "target": "AI Research Scientist"
+    },
+    {
+      "weight": 13,
+      "source": "North America",
+      "target": "LLMs/NLP"
+    },
+    {
+      "weight": 14,
+      "source": "North America",
+      "target": "Mathematics"
+    },
+    {
+      "weight": 12,
+      "source": "North America",
+      "target": "TensorFlow"
+    },
+    {
+      "weight": 16,
+      "source": "North America",
+      "target": "BI Developer"
+    },
+    {
+      "weight": 14,
+      "source": "North America",
+      "target": "Excel"
+    },
+    {
+      "weight": 29,
+      "source": "North America",
+      "target": "Tableau/PowerBI"
+    },
+    {
+      "weight": 12,
+      "source": "North America",
+      "target": "R"
+    },
+    {
+      "weight": 14,
+      "source": "North America",
+      "target": "Scikit-Learn"
+    },
+    {
+      "weight": 31,
+      "source": "Data Modeling",
+      "target": "BI Developer"
+    },
+    {
+      "weight": 20,
+      "source": "Data Modeling",
+      "target": "Europe"
+    },
+    {
+      "weight": 53,
+      "source": "Machine Learning",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "weight": 30,
+      "source": "Machine Learning",
+      "target": "Europe"
+    },
+    {
+      "weight": 15,
+      "source": "Europe",
+      "target": "Linux"
+    },
+    {
+      "weight": 7,
+      "source": "Europe",
+      "target": "R"
+    },
+    {
+      "weight": 19,
+      "source": "Europe",
+      "target": "Tableau/PowerBI"
+    },
+    {
+      "weight": 12,
+      "source": "Europe",
+      "target": "AI Research Scientist"
+    },
+    {
+      "weight": 30,
+      "source": "Europe",
+      "target": "Deep Learning"
+    },
+    {
+      "weight": 10,
+      "source": "Europe",
+      "target": "LLMs/NLP"
+    },
+    {
+      "weight": 28,
+      "source": "Europe",
+      "target": "PyTorch"
+    },
+    {
+      "weight": 22,
+      "source": "Europe",
+      "target": "Machine Learning Engineer"
+    },
+    {
+      "weight": 13,
+      "source": "Europe",
+      "target": "BI Developer"
+    },
+    {
+      "weight": 9,
+      "source": "Europe",
+      "target": "Excel"
+    },
+    {
+      "weight": 17,
+      "source": "Europe",
+      "target": "MLOps"
+    },
+    {
+      "weight": 6,
+      "source": "Europe",
+      "target": "Scikit-Learn"
+    },
+    {
+      "weight": 8,
+      "source": "Europe",
+      "target": "Mathematics"
+    },
+    {
+      "weight": 9,
+      "source": "Europe",
+      "target": "TensorFlow"
+    },
+    {
+      "weight": 45,
+      "source": "Machine Learning Engineer",
+      "target": "Deep Learning"
+    },
+    {
+      "weight": 41,
+      "source": "Machine Learning Engineer",
+      "target": "MLOps"
+    },
+    {
+      "weight": 47,
+      "source": "Machine Learning Engineer",
+      "target": "PyTorch"
+    },
+    {
+      "weight": 34,
+      "source": "Deep Learning",
+      "target": "AI Research Scientist"
+    },
+    {
+      "weight": 25,
+      "source": "PyTorch",
+      "target": "AI Research Scientist"
+    },
+    {
+      "weight": 35,
+      "source": "BI Developer",
+      "target": "Tableau/PowerBI"
+    },
+    {
+      "weight": 33,
+      "source": "BI Developer",
+      "target": "Excel"
+    },
+    {
+      "weight": 31,
+      "source": "AI Research Scientist",
+      "target": "LLMs/NLP"
+    },
+    {
+      "weight": 28,
+      "source": "AI Research Scientist",
+      "target": "Mathematics"
+    },
+    {
+      "weight": 30,
+      "source": "AI Research Scientist",
+      "target": "TensorFlow"
+    }
+  ]
+}
