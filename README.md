@@ -23,3 +23,12 @@ pip install -r requirements.txt
 
 # Run complete pipeline & benchmark suite
 python3 main.py
+```
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/aeb40495-3870-41fe-b2d4-38090b65c52c" />
+
+
+<img width="900" height="700" alt="image" src="https://github.com/user-attachments/assets/2190362c-79f3-4af6-93a4-1c43e14b5579" />
+
+
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/99c41ad0-ada7-4f2d-90db-1674006622ff" />
